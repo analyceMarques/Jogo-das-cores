@@ -66,4 +66,15 @@ header{
     position: relative;
     margin: 0 auto;
     margin-top: 15%;
+    animation: pulse 1s infinite; /* animaao, pulsao*/
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.6); }
+  100% { transform: scale(1); }
+  /* kay uma animacao ou trans. e ele e chamao pelo pulse(que pode ser qulqer nome)
+  os valores de baixo so estao passando o tempo de trans. de tamanho em 1s que foi definido no animation
+  scale=tamanho
+  */
 }
